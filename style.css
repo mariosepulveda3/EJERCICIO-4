@@ -1,4 +1,129 @@
-h1 {
-    color:blue;
+body {
+padding: 50px;
 
+}
+
+h1 {
+ font-size: 60px;
+
+}
+
+.image-header {
+background-image: url("https://i0.wp.com/linkedinheaders.com/wp-content/uploads/2018/02/mountain-header.jpg?fit=1584%2C396&ssl=1");
+
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.list-style {
+    border: transparent;
+    margin-right: 1000px;
+    background-color: rgba(0, 0, 0, 0.494);
+
+}
+
+a {
+    text-decoration: none;
+    color:black;
+
+}
+
+
+.menu {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-right: 800px;
+    padding-left: 100px;
+    
+}
+
+.logos {
+    display:flex;
+    justify-content: space-around;
+    margin-top: -60px;
+    padding-right: 100px;
+    padding-left: 950px;
+
+}
+
+.image-logo {
+    height: 30px;
+    width: 30;
+
+}
+
+.title {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 50px;
+    
+}
+
+.space-top {
+
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.container {
+    padding-top: 90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.container1 {
+    padding-top: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-act {
+    height: 270px;
+    width: 200px;
+    
+}
+
+.space-center {
+
+    padding-top: 150px;
+}
+
+.image-new {
+    height: 130px;
+    width: 200px;
+
+}
+
+.image-pub {
+    height: 300px;
+    width: 450px;
+
+}
+
+.border {
+
+    border-color: rgb(113, 113, 113);
+    border-style: double;
+    border-width: 1px;
+}
+
+footer {
+
+    padding-top: 90px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    
 }
