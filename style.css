@@ -1,33 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+header {
+
+    font-family: 'Lato', sans-serif; 
+
+}
+
 body {
-padding: 50px;
+
+    padding: 50px;
+    background-color: gray;
+
+}
+
+main {
+
+    font-family: 'Work Sans', sans-serif;
 
 }
 
 h1 {
- font-size: 60px;
+ 
+    font-size: 60px;
 
 }
 
 .image-header {
-background-image: url("https://i0.wp.com/linkedinheaders.com/wp-content/uploads/2018/02/mountain-header.jpg?fit=1584%2C396&ssl=1");
+
+    background-image: url("https://i0.wp.com/linkedinheaders.com/wp-content/uploads/2018/02/mountain-header.jpg?fit=1584%2C396&ssl=1");
 
 }
 
 h2 {
+    
     font-size: 20px;
     text-align: center;
     padding: 30px;
     
 }
 
+h3 {
+
+    font-size: 30px;
+
+}
+
 .list-style {
+    
     border: transparent;
     margin-right: 1000px;
-    background-color: rgba(0, 0, 0, 0.494);
+    background-color: rgba(254, 254, 254, 0.494);
 
 }
 
 a {
+    
     text-decoration: none;
     color:black;
 
@@ -35,6 +64,7 @@ a {
 
 
 .menu {
+    
     color: black;
     display: flex;
     justify-content: space-around;
@@ -45,6 +75,7 @@ a {
 }
 
 .logos {
+    
     display:flex;
     justify-content: space-around;
     margin-top: -60px;
@@ -54,6 +85,7 @@ a {
 }
 
 .image-logo {
+    
     height: 30px;
     width: 30;
 
@@ -73,26 +105,80 @@ a {
     padding-top: 150px;
     padding-left: 150px;
     padding-right: 150px;
+    background-color: whitesmoke;
+
 }
 
 .container {
-    padding-top: 90px;
+    
+    padding-top: 60px;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
+
 }
 
 .container1 {
+    
     padding-top: 20px;
+    padding-bottom: 40px;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
+
+}
+
+.container2 {
+
+    border: transparent;   
+    background-color: rgb(199, 199, 199); 
+    padding: 30px 60px;
+    margin-inline: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;   
+
+}
+
+.container3 {
+
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;   
+
+}
+
+.container4 {
+    
+    background-color: rgb(199, 199, 199);
+    margin-top: 30px;
+    border: transparent; 
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container5 {
+
+    background-color: rgb(199, 199, 199);
+    border: transparent;
+    padding: 20px 10px; 
+    margin-inline: 10px;
+    display: flex;
+    justify-content: space-around;
+
 }
 
 .image-act {
+    
     height: 270px;
     width: 200px;
-    
+ 
 }
 
 .space-center {
@@ -101,12 +187,14 @@ a {
 }
 
 .image-new {
+    
     height: 130px;
-    width: 200px;
+    width: 207px;
 
 }
 
 .image-pub {
+    
     height: 300px;
     width: 450px;
 
@@ -114,9 +202,24 @@ a {
 
 .border {
 
-    border-color: rgb(113, 113, 113);
+    margin: 10px;
+    padding: 5px;
+    border-color: rgb(212, 212, 212);
     border-style: double;
     border-width: 1px;
+}
+
+.date {
+
+    color: gray;
+
+}
+
+.small-letter {
+
+    color: rgb(66, 66, 66);
+    font-size: 15px;
+
 }
 
 footer {
@@ -125,6 +228,16 @@ footer {
     font-size: 20px;
     display: flex;
     justify-content: space-around;
+    background-color: whitesmoke;
     
+}
+
+.conditions-footer {
+
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
