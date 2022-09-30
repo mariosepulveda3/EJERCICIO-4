@@ -132,7 +132,7 @@ a {
     margin-inline: 10px;
     font-size: 20px;
     display: flex;
-    justify-content: space-around; 
+    flex-direction: column; 
     align-items: center;   
 
 }
@@ -154,8 +154,7 @@ a {
     margin-top: 30px;
     border: transparent; 
     font-size: 20px;
-    display: flex;
-    justify-content: center;
+    
 
 }
 
@@ -163,7 +162,7 @@ a {
 
     background-color: rgb(199, 199, 199);
     border: transparent;
-    padding: 20px 10px; 
+    padding: 30px 50px; 
     margin-inline: 10px;
     display: flex;
     justify-content: space-around;
@@ -233,7 +232,7 @@ a {
 footer {
 
     padding-top: 90px;
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     justify-content: space-around;
     background-color: whitesmoke;
@@ -242,18 +241,17 @@ footer {
 
 .conditions-footer {
 
-    padding-left: 30px;
-    padding-right: 30px;
     display: flex;
-    justify-content: space-between;
-
+    
 }
 
-.color-conditions {
+.conditions {
 
+    margin-inline: 10px;
     color: rgb(89, 89, 254);
 
 }
+
 
 .img-log-2 {
 
@@ -261,4 +259,3 @@ footer {
     width: 30px;
 
 }
-
